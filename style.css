@@ -1,0 +1,143 @@
+
+
+
+/* Navigation */
+.navbar{
+  height: 100px;
+}
+a{
+  font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 22px;
+color: #000000;
+}
+
+li{
+  
+    margin:0 20px 0 20px;  
+}
+.vl {
+ 
+  height: 40px;
+
+  position: relative;
+
+  background-color: #000000;
+
+border: 1px solid #000000;
+}
+
+hr{
+
+
+margin-top: 100px;
+
+position: absolute;
+width: 100%;
+height: 0px;
+left: 0px;
+
+background-color: #FF7A00;
+border: 5px solid #FF7A00;
+}
+
+.wrapper {
+  height: 600px;
+
+}
+
+.input-group{
+
+  position: relative;
+width: 371px;
+height: 47px;
+margin-left: 375px;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 15px;
+}
+
+/* Header */
+
+.smallbox{
+  position: absolute;
+width: 242px;
+height: 99px;
+left: 153px;
+top: 229px;
+text-align: center;
+background: #C4C4C4;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.54)
+
+}
+.smallbox2{
+position: absolute;
+width: 242px;
+height: 76px;
+left: 395px;
+top: 252px;
+text-align: center;
+background: #000000;
+}
+.blockimage{
+  text-align: center;
+position: absolute;
+width: 1232px;
+height: 229px;
+left: 104px;
+top: 328px;
+
+background: url(images/image.png);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.81));
+border-radius: 37px;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.blockimage button{
+  color: #fffffa;
+ 
+  background: rgb(0 0 0 / 30%);
+  border-radius: 80px;
+  padding: 12px 48px;
+  display: inline-block;
+  transition: 300ms;
+  font-weight:bold;
+
+}
+
+.btn-danger {
+  background-color: #ffffff00;
+  border-color: #fff;
+ 
+}
+.btn-danger:not(:disabled):not(.disabled).active, .btn-danger:not(:disabled):not(.disabled):active, .show>.btn-danger.dropdown-toggle {
+  color: #fff;
+  background-color: #000000;
+  border-color: #fff;
+}
+
+.btn-group>.btn-group:not(:last-child)>.btn, .btn-group>.btn:not(:last-child):not(.dropdown-toggle) {
+  border-color: #fff;
+}
+
+.btn-danger:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #000000;
+  border-color: #fff; /*set the color you want here*/
+  
+}
+.margin-left{
+  margin-left: 80px !important;
+}
