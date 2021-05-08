@@ -554,3 +554,53 @@ margin-bottom: 50px;
 width: auto;
 background: #FC6511;
 border-radius: 22px;}
+
+/* Product Description */
+.row{
+  
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  
+  text-align: center;
+  font-family: arial;
+  border-style: solid;
+  border-color: #000;
+  margin-left: 25%;
+  margin-top: 5%;
+}
+
+.details {
+
+  margin-top: 5%;
+  margin-left: 5%;
+  float:left;
+  position: relative;
+  text-align: Left;
+}
+.price {
+    color: rgb(22, 189, 44);
+    font-size: 22px;
+}
+
+.cart button {
+  margin-top: 60%;
+  margin-left: 60%;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+.cart-btn{
+  color: white;
+  background-color: #000;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
