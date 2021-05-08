@@ -9,7 +9,7 @@ a{
   font-family: Montserrat;
 font-style: normal;
 font-weight: 500;
-font-size: 24px;
+
 line-height: 22px;
 color: #000000;
 }
@@ -141,3 +141,416 @@ border-radius: 37px;
 .margin-left{
   margin-left: 80px !important;
 }
+
+
+/*************Product page***************/
+
+
+
+
+
+.product article {
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 0;
+  padding: 10px;
+  width: 100%;
+  position: relative;
+}
+
+
+
+
+
+.product article .product-hover .icons .icon {
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 45px;
+  width: 45px;
+  border: 1px solid #dee2e6;
+  border-radius: 0;
+  font-size: 1rem;
+  color: #FF7A00;
+  text-decoration: none;
+  margin-left: 7px;
+  margin-right: 7px;
+  cursor: pointer;
+}
+
+.product article .product-hover .buttons {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  margin-left: -40%;
+  width: 80%;
+  color: #FF7A00;
+}
+.btn-danger {
+  color: #fff;
+  background-color: #ce202d;
+  border-color: #ce202d;
+}
+
+
+.product article .price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: #ce202d;
+  padding-bottom: 9px;
+}
+
+.product article .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: .875rem;
+  color: #212529;
+  min-height: 20px;
+  max-height: 30px;
+  margin-top: 7px;
+  line-height: 20px;
+  text-decoration: none;
+  padding: 0;
+}
+
+
+.product {
+  margin-bottom: 30px
+}
+
+.product article:hover {
+  box-shadow: 0 0 10px rgba(0,0,0,.15)
+}
+
+.product .module {
+  position: relative
+}
+
+.product .module  .cat-title {
+  display: block;
+  background-color: rgba(0,0,0,.75);
+  font-size: .875rem;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 100%
+}
+
+.product .module .cat-title:hover {
+ 
+  color: #FF7A00
+}
+
+.product:hover .product-hover {
+  opacity: 1
+}
+
+
+.hr2:before {
+  display: flex;
+  height: 3px;
+  background-color: #FF7A00;
+  content: "";
+  position: absolute;
+  width: 90px;
+  margin-top: -2px;
+}
+.heading .hr2 {
+  margin-top: 2px;
+  margin-bottom: 30px;
+  border-top: 1px solid #dee2e6;
+}
+
+.hr2 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0,0,0,.1);
+}
+.hr2 {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+*, :after, :before {
+  box-sizing: border-box;
+}
+
+.hr2 {
+  display: block;
+  unicode-bidi: isolate;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  overflow: hidden;
+  border-style: inset;
+  border-width: 1px;
+}
+.heading h2 {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.btn-block {
+    display: block;
+    width: 100%;
+}
+
+
+
+
+.product article .product-hover .icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+}
+
+.product article .product-hover {
+  opacity: 0;
+  transition: .5s ease;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(50,78,92,.77);
+  border-radius: 0;
+  height: 270px;
+  width: 100%;
+  z-index: 99;
+}
+
+.product article .thumb {
+  height: 270px;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+
+/************* Cart ***************/
+
+
+.cart-container{
+  position: relative;
+  width: auto;
+  height: auto;
+  left: 50px;
+  
+  background: rgba(196, 196, 196, 0.21);
+}
+
+.product-image{
+  position: relative;
+  width: 163px;
+  height: 48px;
+
+  margin-top: 264px;
+  
+  background: #C4C4C4;
+  }
+.cart-description{
+position: relative;
+width: 415px;
+height: 48px;
+
+margin-top: 263px;
+
+background: #C4C4C4;
+}
+
+.cart-price{
+position: relative;
+width: 163px;
+height: 48px;
+
+margin-top: 264px;
+
+background: #C4C4C4;
+}
+.cart-quantity{
+position: relative;
+width: 161px;
+height: 48px;
+
+margin-top: 263px;
+
+background: #C4C4C4;
+}
+
+.cart-total{
+position: relative;
+width: 161px;
+height: 47px;
+
+margin-top: 264px;
+background: #C4C4C4;
+}
+
+.cart-delete{
+  position: relative;
+  width: 46px;
+height: 47px;
+
+margin-top: 264px;
+background: #C4C4C4;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+
+.cart-table {
+  border-width: 2px;
+  border: solid;
+  text-align: left;
+  width: auto;
+  border-color: #eaeaea;
+}
+
+.cart-container table.cart img {
+  width: auto;
+  max-width: 60px;
+}
+.table2 {
+  position: relative;
+  width: 300px;
+  left: 1140px;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  border-radius: 19px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  
+
+}
+
+.checkot-total{
+  text-align: center;
+height: 45px;
+
+
+box-sizing: border-box;
+
+}
+
+#table2 td, #table2 th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#table2 tr:nth-child(even){background-color: #f2f2f2;}
+
+#table2 tr:hover {background-color: #ddd;}
+
+#table2 th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #fff;
+  color: #000;
+}
+
+.checkout-btn{
+
+
+height: 100%;
+width: 100%;
+float: right;
+background: #0EC420;
+border-radius: 0px 0px 19px 19px;
+}
+.coupon-btn{
+width: 145px;
+height: 47px;
+
+
+background: #0EC420;
+}
+
+.coupon-input{
+  
+width: 526px;
+height: 47px;
+left: 235px;
+top: 645px;
+
+background: #C4C4C4;
+}
+.login-container{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  margin-top: 50px;
+width: 689px;
+height: auto;
+
+background: #DEDEDE;
+border: 1px solid #FF7A00;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+text-align: center;
+}
+.login-heading{
+height: 71px;
+left: 718px;
+top: 328px;
+
+background: #F0F0F0;
+border: 1px solid #000000;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 71px;
+left: 718px;
+top: 328px;
+
+background: #DEDEDE;
+border: 1px solid #000000;
+text-align: center;
+}
+
+.login-field{
+  
+width: 376px;
+height: 68px;
+left: 530px;
+top: 492px;
+
+background: #FFFFFF;
+border-radius: 22px;
+margin-bottom: 50px;
+}
+.half-a-border-on-top {
+  padding:0;margin:0;display:block;/* probably not really needed? */
+  content: "";
+  width:50%;
+  height:1.1px;/* slight higher to work around rounding errors(?) on some zoom levels in some browsers. */
+  background-color:#FF7A00;
+  position: absolute;
+  right:0;
+  top:-1px;
+}
+.login-btn{
+width: auto;
+background: #FC6511;
+border-radius: 22px;}
