@@ -20,7 +20,7 @@
   <section >
 
   <nav class="navbar navbar-expand-md ">
-  <a class="navbar-brand" href="home.php">
+  <a class="navbar-brand" href="#">
     <img src="images/logo.png" alt="Logo" style="width: 90px;">
   </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
@@ -50,16 +50,16 @@
             <div class="vl"></div>
         
             <li class="nav-item">
-                <a class="nav-link" href="special order.php">Special Order</a>
+                <a class="nav-link" href="productPage.php">Prpducts</a>
             </li>
             <div class="vl"></div>
             
             <li class="nav-item">
-                <a class="nav-link" href="productPage.php">Products</a>
+                <a class="nav-link" href="#">Pricing</a>
             </li>
             <div class="vl"></div>
             <li class="nav-item">
-                <a class="nav-link" href="login.php">Login</a>
+                <a class="nav-link" href="logi.php">Login</a>
             </li>
             <div class="vl"></div>
             <li class="nav-item">
