@@ -25,6 +25,7 @@
   </style>
   <?php
    include 'navbar.php';
+    include 'chaticon.php';
   ?>
 <img src="8409.jpg" alt="Man on motor cycle">
 <div class="aboutussec">
