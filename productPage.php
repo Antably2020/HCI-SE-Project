@@ -18,6 +18,7 @@
   
   <?php
    include 'navbar.php';
+      include 'chaticon.php';
   ?>
 
 
