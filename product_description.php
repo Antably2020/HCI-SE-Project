@@ -51,6 +51,7 @@ Add to Cart</button>
 
 <?php
    include 'footer.php';
+    include 'chaticon.php';
   ?>
 
   </body>
