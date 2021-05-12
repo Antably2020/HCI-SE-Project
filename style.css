@@ -550,10 +550,14 @@ margin-bottom: 50px;
   right:0;
   top:-1px;
 }
+
 .login-btn{
 width: auto;
 background: #FC6511;
-border-radius: 22px;}
+border-radius: 22px;
+margin-bottom:40px;}
+
+
 
 /* Product Description */
 .row{
@@ -603,4 +607,41 @@ border-radius: 22px;}
   padding-bottom: 10px;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+
+
+
+
+
+
+
+/************* footer ***************/
+
+
+li
+{
+  list-style-type: none;
+  margin-left: 1vw;
+}
+
+
+
+footer
+{
+  padding-top: 5vh;
+  padding-bottom: 2vh;
+}
+
+
+
+
+.logo
+{
+  height: 5vh;
+}
+.sozial{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
