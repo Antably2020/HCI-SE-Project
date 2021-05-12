@@ -59,7 +59,7 @@
             </li>
             <div class="vl"></div>
             <li class="nav-item">
-                <a class="nav-link" href="logi.php">Login</a>
+                <a class="nav-link" href="login.php">Login</a>
             </li>
             <div class="vl"></div>
             <li class="nav-item">
