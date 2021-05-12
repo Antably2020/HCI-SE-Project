@@ -16,6 +16,7 @@
  <header> 
   <?php
    include 'navbar.php';
+     include 'chaticon.php';
   ?>
 </header>
 <h2 style=" text-align: center;"><b>Special Order</b></h2>
